@@ -29,19 +29,26 @@
 | `ccc` | 0件以上 |
 
 
-## 動作環境
+## 動作環境（動作確認済み）
 
-* OS: Windows 11
+* OS: Windows 11, Ubuntu 22.04
 
-## 使い方
+## 使い方（Windows）
 
-1.  リポジトリの[**Releasesページ**](https://github.com/ms2224/Namecle/releases/)から、最新版の`Namecle.exe`ファイルをダウンロードします。
+1.  リポジトリの[**Releasesページ**](https://github.com/ms2224/Namecle/releases/)から、最新版の `Namecle_Windows.exe` ファイルをダウンロードします。
 2.  `Namecle.exe` をダブルクリックして実行します。
 3.  ウィンドウにリネームしたいPDFファイルをドロップし処理を行います。
 
+## 使い方（Linux）
+
+1.  リポジトリの[**Releasesページ**](https://github.com/ms2224/Namecle/releases/)から、最新版の `Namecle_Linux.zip` ファイルをダウンロードします。
+2.  `Namecle_Linux.zip` を展開して、シェルファイルを実行します。 ```sudo ./installer.sh ```
+3.  アプリケーションランチャーで `Namecle` を検索して開きます。![launcher](https://github.com/user-attachments/assets/87bec6a9-4af4-419f-beed-7f15b8ed3701)
+4.  ウィンドウにリネームしたいPDFファイルをドロップし処理を行います。
+
 ## ビルド方法について
 
-exeファイルのビルド方法については、[**BUILD.md**](https://github.com/ms2224/Namecle/blob/main/BUILD.md)ファイルを参照してください。
+ファイルのビルド方法については、[**BUILD.md**](https://github.com/ms2224/Namecle/blob/main/BUILD.md)ファイルを参照してください。
 
 ## 注意事項
 
