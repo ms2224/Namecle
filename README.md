@@ -31,7 +31,7 @@
 
 ## 動作環境（動作確認済み）
 
-* OS: Windows 11, Ubuntu 22.04
+* OS: Windows 11, Ubuntu 22.04 24.04
 
 ## 使い方（Windows）
 
