@@ -1,0 +1,76 @@
+# Python-specific exclusions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.lo
+*.lo
+*.dylib
+
+# Distribution / packaging
+.Python
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+*.egg
+sdist/
+wheel/
+share/python-wheels/
+*.whl
+.env/
+.venv/
+venv/
+env/
+
+# PyInstaller / Executables
+*.spec
+dist/
+build/
+# Common executable/binary extensions to exclude in the root
+*.exe
+*.dmg
+*.app
+*.bin
+*.out
+*.com
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.bak
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+---
+
+# Custom Rules
+
+# Exclude all subdirectories and their contents
+*/
