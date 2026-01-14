@@ -200,7 +200,7 @@ QStatusBar {
 }
 """
 
-__version__ = "2.0.0"
+__version__ = "2.0.1"
 
 APP_DATA_DIR = os.path.join(os.getenv('LOCALAPPDATA'), "Namecle")
 if not os.path.exists(APP_DATA_DIR):
@@ -957,4 +957,11 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     wnd = MainWindow()
     wnd.show()
+
+    try:
+        import pyi_splash
+        pyi_splash.close()
+    except ImportError:
+        pass
+    
     sys.exit(app.exec_())

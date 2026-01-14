@@ -14,6 +14,7 @@ PyInstaller.__main__.run([
     '--windowed',
     '--noconfirm',
     '--icon=assets/icon.ico',
+    '--splash=assets/social_preview.png',
 
     f'--add-data={llama_lib_path}{os.pathsep}./llama_cpp/lib',
 
